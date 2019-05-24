@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Airline Data Chart</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div id="main" class="flex-container">
+		<header>
+			<p id="heading"> Airplane Flights </p>
+			<input id="searchText" type="text" name="searchText" placeholder="Airline" onfocusout="filterAirlines()"
+				onkeypress="checkEnterKey()"></input>
+		</header>
+		<section>
+			<div id="chartHeader">
+				<span id="totalFlightCount">All Airlines</span>
+			</div>
+			<div id="chart">
+				<svg id="svgChart" viewBox="0 0 500 200">
+				</svg>
+			</div>
+		</section>
+	</div>
+	<script type="text/javascript" src="./airline-data.js"></script>
+	<script type="text/javascript" src="./charts.js"></script>
+	<script type="text/javascript" src="./main.js"></script>
+</body>
+
+</html>

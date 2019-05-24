@@ -1,0 +1,45 @@
+.flex-container {
+	display: flex;
+	background-color: #f1f1f1;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 25px;
+	width: 90%;
+	border: 1px solid #b2b2b5; 
+  }
+header {
+	display: flex;
+	flex-direction : row;
+	flex-wrap: wrap; 
+	justify-content: space-between;
+	height: 60px;
+	align-content: center;
+}
+#heading {
+	font: 18px arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+#searchText {
+	padding: 5px;
+	margin: 0px;
+}
+section {
+	display: flex;
+	flex-direction : column;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	border: 1px solid gray;
+	align-content: center;
+}
+
+#chartHeader {
+	text-align: center;
+	background-color: lightgray;
+}
+
+#chart {
+	text-align: center;
+	background-color: white;
+}
